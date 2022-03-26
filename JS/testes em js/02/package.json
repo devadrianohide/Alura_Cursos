@@ -1,0 +1,12 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "02bitbank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriano",
+  "license": "ISC",
+  "type": "module"
+}
