@@ -1,0 +1,56 @@
+*{  
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, rgb(227, 42, 42), rgb(194, 194, 194), rgba(78, 78, 78, 0.707), rgb(124, 50, 105));
+    padding: 20px;
+    transition: 1.5s;
+    box-shadow: 5px 2px 10px 3px rgba(127, 0, 0, 0.224);
+    border-radius: 50%;
+}
+
+
+.diferente {
+    background-image: linear-gradient(to bottom, rgb(5, 0, 18), rgb(152, 142, 142), rgba(78, 78, 78, 0.707), rgb(109, 58, 107));
+}
+
+.box:hover {
+     transition: 1.5s;
+    background-color: yellow;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 250px;
+    flex-wrap: wrap;
+   grid-gap: 30px;
+   background-color: rgb(0, 0, 0);
+  
+
+}
+
+.box-menu {
+ grid-column: 1/9; 
+ background-image: linear-gradient(to right, red, blue, yellow, purple, pink,violet);
+}
+
+
+
+
+
+.desse:hover {
+    transition: 1.5s;
+    background-color: rgb(226, 43, 55);
+}
